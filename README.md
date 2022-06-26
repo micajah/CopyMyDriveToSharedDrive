@@ -13,3 +13,8 @@ This is the main entry point to the script. If you are running from Apps Scripts
 ## Delete Iterator Keys
 deleteIteratorKeys() function, I would run this if the system crashes before it stores the iterator keys properly or you want to fully start from the begining again.
 
+## Stackoverflow Thread
+It was based on this post https://stackoverflow.com/questions/45689629/how-to-use-continuationtoken-with-recursive-folder-iterator
+
+
+

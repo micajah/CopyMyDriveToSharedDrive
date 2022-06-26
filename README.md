@@ -19,6 +19,6 @@ deleteIteratorKeys() function, I would run this if the system crashes before it 
 ## Stackoverflow Thread
 It was based on this post https://stackoverflow.com/questions/45689629/how-to-use-continuationtoken-with-recursive-folder-iterator
 
-## Code it Attached to a Google Drive Document
+## Code is Attached to a Google Drive Document
 This script is not stand alone google Apps Script Code.  It probably needs to be fixed to be a stand along Google Apps Script file instead of linked to a document, I never got around to it.  It uses PropertiesService.getDocumentProperties().getProperty to store some settings between each script run.  This probably could be changed to getUserProperties().   We just did not have time to worry about it and I'm amazed we even got this working or posted to GitHub.
 

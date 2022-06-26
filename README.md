@@ -1,6 +1,9 @@
 # Copy My Drive Files and Folders To a Shared Drive / Google Team Drive
 Script to iterate through Google Drive My Drive Folders and Files looking for files you own that can be moved to a Shared Drive / Team Drive. If you do not own the files it can attempt to copy them and rename/delete them in the source folder.
 
+## Be Prepared to Run this Script Over and Over
+You must run this script as each user who is an Owner of a file in the My Drive folder structure. The script will not delete a folder until all the files are cleared out AND you are the owner of the folder. So you may be the owner of a folder, with files inside, owned by someone else plus you.  Step 1 you run the script and your files are moved. Step 2 the other person runs the script, their files are moved. Step 3 you run the script again, now the folder is empty and you own it, the script will delete the folder.
+
 ## Time Out
 The script uses the Google DriveApp Folder Iterator and File Iterator to resume processing for large folder tree structures.   
 
